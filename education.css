@@ -1,0 +1,299 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Background Header */
+
+.header {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 6%;
+    color: rgb(255, 255, 255);
+    font-family: 'Bellefair';
+    font-size: 25px;
+    margin: 1%;
+    text-align: center;
+  }
+
+#nameheader{
+    font-weight: 50;
+  }
+  
+.aboutmebt{
+    border: 3px solid rgb(255, 255, 255);
+    background-color: #88888800;
+    border-radius: 50px;
+    color:white;
+    font-family: 'Bellefair';
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    animation-duration: 0.4s;
+    width: 30%;
+    margin: -0.5%;
+    margin-top: -1%;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+.aboutmebt:hover {
+    background: white;
+    color: black;
+  }
+
+.middle {
+    font-weight: 400;
+    color: white;
+}
+
+
+
+/*My Profile*/
+.bt1 {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-family: 'Bellefair';
+    padding: 14px 4%;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    animation-duration: 0.4s;
+    margin: -0.5%;
+    margin-top: -1%;
+    font-size: 120%;
+    text-decoration: none;
+  }
+
+.bt1:hover {
+    background: white;
+    color: black;
+  }
+
+.myname {
+    border: 2px solid black;
+    background-color: black;
+    color: black;
+    font-family: 'Bellefair';
+    padding: 14px 17.3%;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    animation-duration: 0.4s;
+    margin: -0.5%;
+    margin-top: -1%;
+    font-size: 120%;
+
+}
+
+
+.tab {
+    text-align: center;
+}
+
+
+
+/*Section1*/
+.section1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3%;
+  padding: 10%;
+}
+
+.liger1 {
+  margin: 5%;
+  padding: 2%;
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  font-family: 'Raleway', sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+#ligermission {
+  font-weight: 200;
+  text-align: center;
+}
+
+
+
+.liger2 {
+  background: url(education3.jpg) no-repeat center; 
+  background-size: cover;
+  padding: 80px 80px;
+  color: rgb(255, 255, 255);
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/*Section 2 Exploration & Impacts*/
+.section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1%;
+}
+
+.subsection2 {
+  display: grid;
+  grid-template-rows: auto auto;
+  padding: 1%;
+}
+
+.pic1 {
+  width: 50%;
+  text-align: center;
+  border: 5px solid rgb(255, 255, 255);
+  margin: -1%;
+}
+
+#quote {
+  margin: 5%;
+  padding: 2%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#paragraph {
+  margin: 5%;
+  padding: 2%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+
+#exploration{
+  border: 3px solid rgb(0, 0, 0);
+  background-color: #000000;
+  border-radius: 50px;
+  color:rgb(255, 255, 255);
+  font-family: 'Bellefair';
+  padding: 10px 2%;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  animation-duration: 0.4s;
+  width: 100%;
+  font-size: 120%;
+  text-decoration: none; 
+  margin: 5%; 
+}
+
+#exploration:hover{
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+
+
+
+/*Section3 Essential*/  
+
+.section3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10%;
+  grid-column-gap: 2%;
+} 
+
+.essentials {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+}
+
+
+#subsection3 {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  padding: 5%;
+}
+
+
+#english {
+  background: url(education15.jpg) no-repeat center; 
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px #000000;
+}
+
+#khmer {
+  background: url(education16.png) no-repeat center; 
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px #000000;
+}
+
+#science {
+  background: url(education5.jpg) no-repeat center; 
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;  
+  text-shadow: 3px 3px 5px #000000;
+}
+
+#math {
+  background: url(education14.jpg) no-repeat center; 
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;  
+  text-shadow: 3px 3px 5px #000000;
+}
+
+.favsubject {
+  background: url(education2.jpg) no-repeat top; 
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;  
+  text-shadow: 3px 3px 5px #000000;
+  padding: 10% 0%;
+  margin: 5%;
+}
+
+.subfav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+

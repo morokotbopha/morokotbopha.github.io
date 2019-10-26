@@ -1,0 +1,171 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Background Header */
+
+.header {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 6%;
+    color: rgb(247, 244, 244);
+    font-family: 'Bellefair';
+    font-size: 25px;
+    margin: 1%;
+    text-align: center;
+  }
+
+#nameheader{
+    font-weight: 50;
+  }
+  
+.aboutmebt{
+    border: 3px solid rgb(255, 255, 255);
+    background-color: #88888800;
+    border-radius: 50px;
+    color:white;
+    font-family: 'Bellefair';
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    animation-duration: 0.4s;
+    width: 40%;
+    margin: -0.5%;
+    margin-top: -1%;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+.aboutmebt:hover {
+    background: white;
+    color: black;
+  }
+
+.middle {
+    font-weight: 100;
+}
+
+
+
+/*My Profile*/
+.bt1 {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-family: 'Bellefair';
+    padding: 14px 4%;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    animation-duration: 0.4s;
+    margin: -0.5%;
+    margin-top: -1%;
+    font-size: 120%;
+    text-decoration: none;
+  }
+
+.bt1:hover {
+    background: white;
+    color: black;
+  }
+
+.myname {
+    border: 2px solid black;
+    background-color: black;
+    color: black;
+    font-family: 'Bellefair';
+    padding: 14px 17.2%;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    animation-duration: 0.4s;
+    margin: -0.5%;
+    margin-top: -1%;
+    font-size: 120%;
+
+}
+
+
+.tab {
+    text-align: center;
+    width: 100%;
+}
+
+
+/*About Me paragraph*/
+#aboutmeinfo {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-family: 'Bellefair';
+    font-size: 20px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5% 10%;
+}
+
+
+/*The grid*/
+
+.grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 5% 10%;
+}
+
+
+.grid div:nth-child(even) {
+    background-color: white;
+}
+
+.grid div:nth-child(even) {
+    background-color: rgb(235, 233, 233);
+}
+
+.info {
+    padding: 5% 10%;
+}
+
+.aboutme {
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    padding: 5% 10%;
+}
+
+.profile {
+    display: inline;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    margin-right: 5px;
+}
+
+#name {
+    font-weight: bold;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#quote {
+    margin-top: -0.5%;
+    font-family: 'Bellefair';
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#phrase {
+    margin-top: -13%;
+    margin-left: 7%;
+    font-family: 'Bellefair';
+    font-weight: 300;
+}
+
+
+
+
+

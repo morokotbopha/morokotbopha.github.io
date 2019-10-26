@@ -1,0 +1,309 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Background Header */
+
+.header {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 6%;
+    color: rgb(255, 255, 255);
+    font-family: 'Bellefair';
+    font-size: 25px;
+    margin: 1%;
+    text-align: center;
+  }
+
+#nameheader{
+    font-weight: 50;
+  }
+  
+.aboutmebt{
+    border: 3px solid rgb(255, 255, 255);
+    background-color: #88888800;
+    border-radius: 50px;
+    color:white;
+    font-family: 'Bellefair';
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    animation-duration: 0.4s;
+    width: 30%;
+    margin: -0.5%;
+    margin-top: -1%;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+.aboutmebt:hover {
+    background: white;
+    color: black;
+  }
+
+.middle {
+    font-weight: 100;
+}
+
+
+
+/*My Profile*/
+.bt1 {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-family: 'Bellefair';
+    padding: 14px 4%;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    animation-duration: 0.4s;
+    margin: -0.5%;
+    margin-top: -1%;
+    font-size: 120%;
+    text-decoration: none;
+  }
+
+.bt1:hover {
+    background: white;
+    color: black;
+  }
+
+.myname {
+  border: 2px solid black;
+  background-color: black;
+  color: black;
+  font-family: 'Bellefair';
+  padding: 14px 17.3%;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  animation-duration: 0.4s;
+  margin: -0.5%;
+  margin-top: -1%;
+  font-size: 120%;
+
+}
+
+.myname:hover {
+    background: white;
+    color:white;
+  }
+
+.tab {
+    text-align: center;
+}
+
+
+
+/*My province*/
+
+.hometown{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2%;
+  padding: 12%;
+}
+
+.hometitle {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 210px 0;
+  color: rgb(247, 244, 244);
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.province {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+  font-weight: 100;
+
+}
+
+#hometownpg {
+  padding-top: 5%;
+  line-height: 20px;
+}
+
+
+/*Hobbies*/
+
+.hobbies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 4%;
+  padding: 0% 10%;
+  margin-top: -2%;
+  font-family: 'Montserrat', sans-serif;
+  border: 2px rgb(3, 17, 44);
+  color: white;
+}
+
+.hobby1 {
+  background-color: rgb(0, 0, 0);
+  padding: 4% 4%;
+  
+}
+
+.hobby2 {
+  background-color: rgb(0, 0, 0);
+  padding: 4% 4%;
+}
+
+.hobby3 {
+  background-color: rgb(0, 0, 0);
+  padding: 4% 4%;
+  
+}
+
+#ic1{
+  width: 100%;
+}
+
+#ic2{
+  width: 100%;
+}
+
+#ic3{
+  width: 100%;
+}
+
+/*My dream*/
+.maindream{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10%;
+  margin-bottom: -10%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 300; 
+}
+
+.mydream {
+  padding: 5%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.mydream2 {
+  background-image: url(img3.jpg);
+  color: white;
+  text-align: center;
+  padding-top: 30%;
+  font-size: 45px;
+}
+
+
+/*FAVORITE books*/
+
+.favbook {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5%;
+  margin: 4%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#subfavbook {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  padding: 1%;
+  text-align: center;
+}
+
+#img {
+  width: 30%;
+}
+
+#subfavbook2 {
+  margin-top: 15%;
+  width: 80%;
+  padding: 5%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.moviemain {
+  display: grid; 
+  font-family: 'Montserrat', sans-serif;
+  background-color: black; 
+  color: white;
+  padding: 0%  2%;
+}
+
+.favmovie1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.favmovie2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+#favmovie {
+  clip-path: circle(38%);
+  width: 100%;
+
+}
+
+#favmovietitle {
+  margin-bottom: -3%;
+}
+
+/*Favorite food and dislike*/
+
+/*SECTION*/
+.section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10%;
+  color: rgb(255, 255, 255);
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center; 
+  text-shadow: 3px 3px 5px #000000;
+  column-gap: 2%;
+}
+
+.favfood {
+  background: url(https://www.dinneratthezoo.com/wp-content/uploads/2019/06/seafood-pasta-5.jpg) no-repeat center; 
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+.notfavfood {
+  background: url(https://lightorangebean.com/wp-content/uploads/2016/11/Chinese-Bitter-Melon-Salad-1.jpg) no-repeat center; 
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

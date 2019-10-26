@@ -1,0 +1,200 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Background Header */
+
+.header {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 6%;
+    color: rgb(255, 255, 255);
+    font-family: 'Bellefair';
+    font-size: 25px;
+    margin: 1%;
+    text-align: center;
+  }
+
+#nameheader{
+    font-weight: 50;
+  }
+  
+.aboutmebt{
+    border: 3px solid rgb(255, 255, 255);
+    background-color: #88888800;
+    border-radius: 50px;
+    color:white;
+    font-family: 'Bellefair';
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    animation-duration: 0.4s;
+    width: 30%;
+    margin: -0.5%;
+    margin-top: -1%;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+.aboutmebt:hover {
+    background: white;
+    color: black;
+  }
+
+.middle {
+    font-weight: 100;
+}
+
+
+
+/*My Profile*/
+.bt1 {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-family: 'Bellefair';
+    padding: 14px 4%;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    animation-duration: 0.4s;
+    margin: -0.5%;
+    margin-top: -1%;
+    font-size: 120%;
+    text-decoration: none;
+  }
+
+.bt1:hover {
+    background: white;
+    color: black;
+  }
+
+.myname {
+    border: 2px solid black;
+    background-color: black;
+    color: black;
+    font-family: 'Bellefair';
+    padding: 14px 17.3%;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    animation-duration: 0.4s;
+    margin: -0.5%;
+    margin-top: -1%;
+    font-size: 120%;
+
+}
+
+.myname:hover {
+    background: white;
+    color:white;
+  }
+
+.tab {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/*Section 1*/
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 6%;
+  column-gap: 2%;
+}
+
+img{
+  width: 100%;
+}
+
+/*SECTION*/
+.section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10%;
+  margin-top: -10%;
+}
+
+.writting {
+  padding: 5%;
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  font-family: 'Raleway', sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+ 
+/*My name*/
+.name {
+  background: url(myname.jpg) no-repeat center; 
+  background-size: cover;
+  padding: 250px 20px;
+}
+
+/*Digital art*/
+.img {
+  background: url(mydrawing.png) no-repeat center; 
+  background-size: cover;
+  padding: 250px 20px;
+}
+
+/*Technovation*/
+.technovation {
+  background: url(http://visal.ligeracademyblog.org/wp-content/uploads/sites/35/2019/05/59404977_2256743294537273_5756670998996844544_n.jpg) no-repeat center; 
+  background-size: cover;
+  padding: 250px 20px;
+}
+
+
+/*FLL Robotics*/
+
+.robotic {
+  background: url(robotic.jpg) no-repeat center; 
+  background-size: cover;
+  padding: 250px 20px;
+}
+
+/*singapore*/
+.singapore {
+  background: url(img4.jpg) no-repeat center; 
+  background-size: cover;
+  padding: 250px 20px;
+}
+
+/*World contest in korea*/
+.worldcontest {
+  background: url(worldcontest.jpg) no-repeat right; 
+  background-size: cover;
+  padding: 250px 20px;
+}
+
+/*korea*/
+
+.korea {
+  background: url(img10.png) no-repeat center; 
+  background-size: cover;
+  padding: 250px 20px;
+}
+
+/*Outdoor Leadership*/
+
+.outdoorleadership {
+  background: url(https://scontent.fpnh6-1.fna.fbcdn.net/v/t1.0-9/62543717_441189320050098_2778673472044269568_n.jpg?_nc_cat=102&_nc_oc=AQmUh5evB8_DSPM48PV_T4lQhGL0H5wI010vEDgjB_nXDt4Ra46VFG-keeDB2I1Jlok&_nc_ht=scontent.fpnh6-1.fna&oh=d17d3f166de5172e69629fe192cec7c0&oe=5E24604A) no-repeat center; 
+  background-size: cover;
+  padding: 250px 20px;
+}
+
+
+
+
+
+
